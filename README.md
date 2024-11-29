@@ -51,6 +51,7 @@ python src/scholify_pdf.py /path/to/your/document.pdf --output_path output/sampl
    9. pdf_converter.py: Script for converting PDFs to Latex.
    10. scholify_pdf.py: Main script for converting PDFs to videos.
    11. utils.py: Utility functions.
+
 **Dependencies**
 The project relies on several dependencies listed in requirements.txt.
 
