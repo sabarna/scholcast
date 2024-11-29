@@ -31,8 +31,8 @@ Scholcast is a project designed to convert academic papers and other documents i
 6. **Add API Keys in config/config.json**
    
 {
-    "mathpix_api_id": "YOUR_MATHPIX_API_ID_HERE",
-    "mathpix_api_key": "YOUR_MATHPIX_API_KEY_HERE",
+    "mathpix_api_id": "YOUR_MATHPIX_API_ID_HERE", <br>
+    "mathpix_api_key": "YOUR_MATHPIX_API_KEY_HERE",<br>
     "openai_api_key": "YOUR_OPENAI_API_KEY_HERE"
 }
 
