@@ -28,7 +28,7 @@ Scholcast is a Python package that creates detailed audio summaries of academic 
 5. **Install Dependencies:**
    
     pip install -r requirements.txt
-6. **Add API Keys in config/config.json**
+6. **Add API Keys in src/config/config.json**
    
 {
     "mathpix_api_id": "YOUR_MATHPIX_API_ID_HERE", <br>
