@@ -2,27 +2,34 @@
 # Scholcast
 
 ## Overview
+
 Scholcast is a project designed to convert academic papers and other documents into various formats, including videos, using advanced natural language processing and multimedia tools.
 
 ## Installation
 
 ### Prerequisites
+
 - Python 3.13 or later
 - A compatible operating system (tested on macOS)
 
 ### Setting Up the Environment
 
 1. **Clone the Repository:**
+   
    git clone https://github.com/sabarna/scholcast.git
 
-2. **Navigate to the Project Directory:**
+3. **Navigate to the Project Directory:**
+   
     cd scholcast
-3. **Create & Activate a Virtual Environment:**
+4. **Create & Activate a Virtual Environment:**
+   
     python3 -m venv scholcast_venv
     source scholcast_venv/bin/activate
-4. **Install Dependencies:**
+5. **Install Dependencies:**
+   
     pip install -r requirements.txt
-5. **Add API Keys in config/config.json**
+6. **Add API Keys in config/config.json**
+   
 {
     "mathpix_api_id": "YOUR_MATHPIX_API_ID_HERE",
     "mathpix_api_key": "YOUR_MATHPIX_API_KEY_HERE",
@@ -32,6 +39,7 @@ Scholcast is a project designed to convert academic papers and other documents i
      
 
 ### Usage
+
 python src/scholify_pdf.py /path/to/your/document.pdf --output_path output/sample_output/ --format video
 
 **Input Parameters**
@@ -53,14 +61,17 @@ python src/scholify_pdf.py /path/to/your/document.pdf --output_path output/sampl
    11. utils.py: Utility functions.
 
 **Dependencies**
+
 The project relies on several dependencies listed in requirements.txt.
 
 **Contributing**
+
 Contributions are welcome. Here are some steps to contribute:
-Fork the repository.
-Create a new branch for your feature or bug fix.
-Commit your changes with a meaningful commit message.
-Open a pull request.
+- Fork the repository.
+- Create a new branch for your feature or bug fix.
+- Commit your changes with a meaningful commit message.
+- Open a pull request.
 
 **License**
+
 Scholcast is released under the MIT License.
