@@ -3,7 +3,7 @@
 
 ## Overview
 
-Scholcast is a project designed to convert academic papers and other documents into various formats, including videos, using advanced natural language processing and multimedia tools.
+Scholcast is a Python package that creates detailed audio summaries of academic papers.
 
 ## Installation
 
