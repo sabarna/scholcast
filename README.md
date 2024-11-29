@@ -35,9 +35,9 @@ Scholcast is a project designed to convert academic papers and other documents i
 python src/scholify_pdf.py /path/to/your/document.pdf --output_path output/sample_output/ --format video
 
 **Input Parameters**
-*--input_path: The path to the input PDF file
-*--output_path: The directory where the output files will be saved
-*--format: The desired output format (e.g., audio /video)
+1. --input_path: The path to the input PDF file
+2. --output_path: The directory where the output files will be saved
+3. --format: The desired output format (e.g., audio /video)
 
 **Directory Structure**
    1. README.md: This file.
