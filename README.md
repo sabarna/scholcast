@@ -23,7 +23,7 @@ Scholcast is a project designed to convert academic papers and other documents i
     cd scholcast
 4. **Create & Activate a Virtual Environment:**
    
-    python3 -m venv scholcast_venv
+    python3 -m venv scholcast_venv <br>
     source scholcast_venv/bin/activate
 5. **Install Dependencies:**
    
